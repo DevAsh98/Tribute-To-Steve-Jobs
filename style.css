@@ -1,0 +1,105 @@
+* {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_image {
+    width: 950px;
+    height: 600px;
+    background-color: ghostwhite;
+    background-image: url(asset/header_picture.jpg);
+    background-size:cover;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'pacifico', cursive;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timeline {
+    width: 700px;
+}
+
+.nutshell {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#timeline_title {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#table_container {
+    font-family: 'Dosis' , sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+em {
+    background-color: rgb(92, 91, 91);
+}
+td {
+    text-align: left;
+    border-top: 2px solid rgb(250, 28, 28);
+    border-bottom: 2px solid rgb(250, 28, 28);
+    border-left: 0;
+    border-right: 0;
+    padding: 5px;
+}
+.second_Col_data {
+    background-color: rgb(92, 91, 91);
+} 
+
+.first_col_data {
+    width: 100px;
+}
+
+#inNutshell {
+    padding-top: 60px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 850;
+    font-size: 25px;
+}
+
+img {
+    width:  140px;
+    height: 210px;
+    
+}
+
+.second_Col_data_nutShell {
+    text-align: center;
+}
+
+#footer {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.colclusive_quote {
+    background-color: rgb(92, 91, 91);
+    color: rgb(0, 255, 255);
+}
